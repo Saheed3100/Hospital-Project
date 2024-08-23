@@ -1,0 +1,558 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: poppins, sans-serif;
+
+}
+
+.main {
+    padding-left: 5rem;
+    padding-right: 5rem;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.container .nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 2rem;
+    text-decoration: none;
+}
+
+.container .nav .link a {
+    color: #3A8EF6;
+}
+
+.container .nav a {
+    text-decoration: none;
+    color: #6C87AE;
+}
+
+.container .toy a {
+    text-decoration: none;
+    color: white;
+    background: linear-gradient(96.14deg, #3A8EF6 -10.84%, #6F3AFA 196.74%);
+    border-radius: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 7rem;
+    gap: 0.5rem;
+    padding: 0.5rem;
+}
+
+.profile .boy {
+    color: #00BFA5;
+}
+
+.profile .brother {
+    color: #6C87AE;
+}
+
+.profile img {
+    width: 500px;
+
+}
+
+.profile {
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+}
+
+.profile #button a {
+    background-color: #3A8EF6;
+    align-items: center;
+    width: 12rem;
+    text-align: center;
+    padding: 1rem;
+    border-radius: 100px;
+    text-decoration: none;
+    color: white;
+}
+
+.profile .brother {
+    width: 25rem;
+
+}
+
+#button img {
+    height: 20px;
+    width: 20px;
+    margin-right: 1rem;
+}
+
+.button a {
+    text-decoration: none;
+    color: white;
+}
+
+.Parent {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 3rem;
+    padding-left: 5rem;
+    padding-right: 5rem;
+}
+
+.Parent .book {
+    background: linear-gradient(145.08deg, #1678F2 3.73%, #65A8FB 132.69%);
+    border-radius: 1rem;
+    width: 15rem;
+    height: 4rem;
+    padding: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    text-decoration: none;
+    color: white;
+}
+
+
+.top {
+    background: linear-gradient(145.08deg, #1678F2 3.73%, #65A8FB 132.69%);
+    border-radius: 1rem;
+    width: 15rem;
+    height: 4rem;
+    padding: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    text-decoration: none;
+    color: white;
+}
+
+.tap {
+    background: linear-gradient(145.08deg, #1678F2 3.73%, #65A8FB 132.69%);
+    border-radius: 1rem;
+    width: 15rem;
+    height: 4rem;
+    padding: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    text-decoration: none;
+    color: white;
+}
+
+
+.mother {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 3rem;
+}
+
+
+
+.mother .pipi {
+    color: #00BFA5;
+    display: flex;
+    justify-content: center;
+}
+
+.mother .imma {
+    color: #6C87AE;
+    width: 25rem;
+
+}
+
+.james .img {
+    width: 5rem;
+    height: 5rem;
+}
+
+.forth {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.forth .fred {
+    width: 25rem;
+}
+
+.forth div img {
+    position: relative;
+
+}
+
+.forth div img:nth-child(1) {
+    position: relative;
+}
+
+.forth div img:nth-child(2) {
+    position: absolute;
+    bottom: -68rem;
+    right: 6rem;
+
+}
+
+.jayjay .ade {
+    color: #00BFA5;
+    display: flex;
+    justify-content: center;
+}
+
+
+
+.osupa {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-items: center;
+    align-items: center;
+
+}
+
+.osupa div h1 {
+    color: #00BFA5;
+
+}
+
+.osupa div p {
+    color: #6C87AE;
+    width: 17rem;
+}
+
+.osupa div a {
+    background: linear-gradient(96.14deg, #3A8EF6 -10.84%, #6F3AFA 196.74%);
+    padding: 1rem;
+    border-radius: 2rem;
+    color: white;
+    text-decoration: none;
+    width: 235px;
+    margin-top: 2rem;
+}
+
+.saheed {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 5rem;
+
+}
+
+
+
+
+
+.wasiu {
+    background: linear-gradient(145.08deg, #1678F2 3.73%, #65A8FB 132.69%);
+    border-radius: 2rem;
+    padding: 2rem;
+    display: flex;
+    justify-items: center;
+    align-items: center;
+}
+
+
+.saheed div h3 {
+    color: #00BFA5;
+    align-items: center;
+    justify-items: center;
+}
+
+.saheed div h2 {
+    color: white;
+}
+
+.saheed div p {
+    color: white;
+}
+
+.joe {
+    display: grid;
+    justify-items: center;
+    align-items: center;
+    margin-top: 5rem;
+}
+
+.joe h3 {
+    color: #00BFA5;
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+
+}
+
+.joe .ali .h {
+    color: #00BFA5;
+    display: flex;
+    justify-content: center;
+}
+
+.joe div p {
+    width: 50rem;
+    justify-content: center;
+    color: #6C87AE;
+}
+
+.japa {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 5rem;
+    padding-left: 15rem;
+    padding-right: 15rem;
+}
+
+.ear {
+    width: 29rem;
+}
+
+.mouth {
+    width: 29rem;
+}
+
+.nose {
+    width: 29rem;
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+}
+
+.akin {
+    background: linear-gradient(145.08deg, #1678F2 3.73%, #65A8FB 132.69%);
+    border-radius: 1rem;
+    width: 18rem;
+    height: 4rem;
+    padding: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    color: white;
+}
+
+.wale {
+    background: linear-gradient(145.08deg, #1678F2 3.73%, #65A8FB 132.69%);
+    border-radius: 1rem;
+    width: 18rem;
+    height: 4rem;
+    padding: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    color: white;
+}
+
+.ajaj {
+    background: linear-gradient(145.08deg, #1678F2 3.73%, #65A8FB 132.69%);
+    border-radius: 1rem;
+    width: 18rem;
+    height: 4rem;
+    padding: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    color: white;
+}
+
+.baby {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 5rem;
+
+}
+
+.babe {
+    width: 35rem;
+    text-align: center;
+}
+
+.babes {
+    width: 35rem;
+    text-align: center;
+    color: #6C87AE;
+
+    ;
+}
+.latest{
+    background-color: #00BFA5;
+}
+
+.nine {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    justify-items: center;
+    align-items: center;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    margin-top: 2rem;
+
+
+}
+
+.noodles {
+    background-color: #ffffff;
+    border-radius: 1.5rem;
+    padding: 1rem;
+    width: 25rem;
+    margin: 2rem;
+}
+.noodles h2{
+color: #00BFA5;
+}
+.por p{
+    width: 22rem;
+    font-style: italic;
+    color: #031432;
+}
+.spagetti {
+    background-color: #ffffff;
+    border-radius: 1.5rem;
+    padding: 1rem;
+    width: 25rem;
+    margin: 2rem;
+}
+
+.super {
+    background-color: #ffffff;
+    border-radius: 1.5rem;
+    padding: 1rem;
+    width: 25rem;
+    margin: 2rem;
+}
+.super .in p{
+width: 22rem;
+font-style: italic;
+color: #031432;
+}
+.vin h2{
+color: #00BFA5;
+}
+.belleful {
+    background-color: #ffffff;
+    border-radius: 1.5rem;
+    padding: 1rem;
+    width: 25rem;
+}
+.da p{
+width: 22rem;
+font-style: italic;
+color: #031432;
+}
+.sup h2{
+color: #00BFA5;
+}
+
+.hour {
+    width: 22rem;
+    font-style: italic;
+    color: #031432;
+}
+
+.thour {
+    display: flex;
+    align-items: center;
+}
+
+.thour h2 {
+    color: #00BFA5;
+}
+
+.in {
+    width: 22rem;
+    font-style: italic;
+    color: #031432;
+}
+
+.vin {
+    display: flex;
+    align-items: center;
+}
+
+.vin .h2 {
+    color: #00BFA5;
+}
+
+.belleful .da {
+    width: 22rem;
+    font-style: italic;
+    color: #031432;
+}
+
+.eleven {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    margin-top: 5rem;
+    background: #26098f;
+    padding-top: 5rem;
+    width: 1000px;
+    height: 200px;
+    color: #ffffff;
+}
+
+.ever {
+    width: 17rem;
+    font-style: small;
+    font-style: italic;
+    color: #ffffff;
+
+}
+
+.ube {
+    justify-content: space-between;
+    display: flex;
+    padding-right: 7rem;
+}
+
+.omp {
+    color: #ffffff;
+}
+
+.om a {
+    display: flex;
+    flex-direction: row;
+    text-decoration: none;
+    color: #ffffff;
+    background-color: #26098f;
+}
+
+.ook {
+    color: #ffffff;
+}
+
+.ok {
+    color: #ffffff;
+}
+
+.tact {
+    color: #ffffff;
+}
+
+.acted a {
+    color: #ffffff;
+    display: flex;
+    flex-direction: row;
+    text-decoration: none;
+}
+
+.acted p {
+    color: #ffffff;
+
+}
+
+.eve {
+    padding-left: 2rem;
+    padding-right: 2rem;
+
+}
+
+.all {
+    color: #26098f;
+    text-align: center;
+    margin-top: 3rem;
+}
